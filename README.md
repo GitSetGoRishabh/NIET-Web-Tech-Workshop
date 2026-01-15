@@ -1,4 +1,17 @@
 # NIET-Web-Tech-Workshop
-This repo is for NIET web technology assignments and other things associated with it.
+
+This repository contains assignments, practice files, and mini-projects of the going web technology workshop at NIET.
+from my ongoing college workshop.
+
+## Contents
+- Daily assignments
+- Practice programs
+- Mini projects
+
+## Tech Used
+- HTML
+- CSS
+- JavaScript
+
 
 Star if it helps !!
