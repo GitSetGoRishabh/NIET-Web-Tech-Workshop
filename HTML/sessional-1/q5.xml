@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE students SYSTEM "q5.dtd">
+
+<students>
+
+    <student>
+        <rollno>101</rollno>
+        <name>Rishabh Singh Yadav</name>
+        <email>rishabh@gmail.com</email>
+        <department>CSE</department>
+    </student>
+
+    <student>
+        <rollno>102</rollno>
+        <name>Aman</name>
+        <email>aman@gmail.com</email>
+        <department>ECE</department>
+    </student>
+
+    <student>
+        <rollno>103</rollno>
+        <name>Rahul</name>
+        <email>rahul@gmail.com</email>
+        <department>ME</department>
+    </student>
+
+</students>
