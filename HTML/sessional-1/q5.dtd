@@ -2,15 +2,12 @@
 
 <!ELEMENT student (rollno, name, email, department)>
 
-<!-- rollno should be numeric (represented using PCDATA in DTD) -->
 <!ELEMENT rollno (#PCDATA)>
 
 <!ELEMENT name (#PCDATA)>
 
-<!-- email is mandatory -->
 <!ELEMENT email (#PCDATA)>
 
-<!-- department allowed values -->
 <!ELEMENT department (CSE | ECE | ME)>
 
 <!ELEMENT CSE (#PCDATA)>
