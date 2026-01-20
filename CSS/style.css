@@ -1,0 +1,15 @@
+h1{
+    font-style: italic;
+    background-color: black;
+    color: aqua;
+    text-align: center;
+}
+
+*{
+    background-color: yellow;
+}
+
+p{
+    font-size: larger;
+    
+}
