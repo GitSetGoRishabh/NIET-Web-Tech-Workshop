@@ -1,0 +1,21 @@
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#para {
+    font-family: "Times New Roman", serif;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
