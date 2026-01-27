@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // for loop... sum of natural numbers 
+        var sum = 0;
+        for (let i = 1; i <= 10; i++) {
+            sum = sum + i;
+        }
+        document.writeln("Sum =" + sum);
+
+        // print odd and even numbers between 1 to 50
+        for (let num = 1; num <= 20; num++) {
+            if (num % 2 == 0) {
+                document.writeln("<br>num" + num + "is even");
+            }
+            else {
+                document.writeln("<br>num" + num + "is odd");
+            }
+        }
+        // Using while loop
+        num = 0
+        while (num != 10) {
+            if (num % 2 == 0) {
+                document.writeln("<br>num" + num + "is even");
+            }
+            else {
+                document.writeln("<br>num" + num + "is odd");
+            }
+            num++;
+        }
+        // using Do-While Loop
+        num = 0;
+        do {
+            if (num % 2 == 0) {
+                document.writeln("<br>num" + num + "is even");
+            }
+            else {
+                document.writeln("<br>num" + num + "is odd");
+            }
+            num++;
+        }
+        while (num != 10)
+
+
+
+    </script>
+</body>
+
+</html>
