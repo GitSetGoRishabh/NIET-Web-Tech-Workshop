@@ -1,0 +1,29 @@
+*JS Functions*
+
+<script>
+    // JS function
+    document.writeln("->JS function<br>");
+    function mymsg(){
+        document.writeln("hello! JS<br>");
+    }
+    mymsg();
+
+    // function expression()selt invocking function
+    document.writeln("->JS function expression<br>");
+    (function mymsg(){
+        document.writeln("function expression<br>");
+    })();
+
+    // function with return type
+    document.writeln("->function with return type<br>");
+    function multi( x,  y){
+        return x*y;
+    }
+    let mul=multi(3,6);
+    document.writeln("sum="+mul+"<br>");
+
+    // Arrow function
+    document.writeln("**Arrow function**<br>");
+     let product=(x,y)=> x*y;
+      document.writeln("Product="+product(3,7)+"<br>");
+</script>
