@@ -35,7 +35,7 @@ function validateForm() {
   let dateInput = document.getElementById("date").value;
   let date = new Date(dateInput);
 
-  if (name === "" || email === "" || age === "" || password === "" || date ==="") {
+  if (name === "" || email === "" || age === "" || password === "" || dateInput ==="") {
     document.getElementById("msg").textContent =
       "All fields are required";
     return false;
@@ -59,7 +59,7 @@ function validateForm() {
     return false;
   }
 
-  if(date.getFullYear()<2024){
+  if(date.getFullYear()>2024){
     document.getElementById('msg').textContent= "Year must be at least 2024";
     return false;
   }
