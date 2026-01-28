@@ -1,0 +1,49 @@
+*Arrow Function*
+<!-- An arrow function is a shorter syntax for writing functions.
+        Syntax
+        const functionName = (parameters) => {
+              // code  }; -->
+
+<!-- Program 1: Arrow Function (Basic) -->
+<script>
+const myfun = () => {
+  document.writeln("Welcome to JavaScript");
+};
+myfun();
+</script>
+
+<!-- Program 2: Arrow Function with Parameters -->
+ <script>
+const add = (a, b) => {
+  return a + b;
+};
+
+document.writeln("<br>Addition  "+add(10, 20));
+
+// Short Form 
+// const add = (a, b) => a + b;
+</script>
+
+
+<!-- Default arguments allow parameters to have default values if no value
+  is passed. --> 
+
+<!-- Program 3: Default Arguments -->
+ <script>
+function greet(name = "Guest") {
+  document.writeln("<br>Hello " + name);
+}
+
+greet("Shivam");
+greet(); // uses default value
+</script>
+
+<!-- Program 4: Arrow Function with Default Arguments -->
+<script>
+const calculateBill = (price, tax = 5) => {
+  return price + (price * tax / 100);
+};
+
+document.writeln("<br>calculateBill-1: "+calculateBill(100));     // tax = 5
+document.writeln("<br>calculateBill-2: "+calculateBill(100, 18)); // tax = 18
+</script>
