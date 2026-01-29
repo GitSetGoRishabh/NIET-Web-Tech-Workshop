@@ -1,0 +1,70 @@
+<!-- Example 1: Simple Object Destructuring -->
+ <script>
+const student = {
+  name: "Rohit",
+  age: 21,
+  course: "CSE"
+};
+const { name, age } = student;
+document.writeln(name+"<br>"); // Rohit
+document.writeln(age);  // 21
+document.writeln("<hr>");
+</script>
+
+<!-- Example 2: Destructuring with Different Variable Names -->
+ <script>
+const employee = {
+  id: 101,
+  salary: 50000
+};
+
+const { id: empId, salary: empSalary } = employee;
+
+document.writeln(empId+"<br>");     // 101
+document.writeln(empSalary); // 50000
+document.writeln("<hr>");
+</script>
+
+<!-- Example 3: Default Values -->
+<script>
+const user = {
+  username: "admin"
+};
+
+const { username, role = "guest" } = user;
+
+document.writeln(username+"<br>"); 
+document.writeln(role); // guest
+document.writeln("<hr>");
+</script>
+
+<!-- Example 4: Destructuring in Function Parameters -->
+<script>
+function showStudent({ name, course }) {
+  document.writeln(name + " - " + course);
+}
+
+showStudent({ name: "Ravi", course: "BCA" });
+document.writeln("<hr>");
+</script>
+
+<!-- Example 5: Simple Array Destructuring -->
+ <script>
+const colors = ["Red", "Green", "Blue"];
+
+const [c1, c2, c3] = colors;
+
+document.writeln(c1); // Red
+document.writeln(c2); // Green
+document.writeln(c3); // Blue
+document.writeln("<hr>");
+</script>
+<!-- Example 6: Skipping Elements in array -->
+ <script>
+const numbers = [10, 20, 30, 40];
+
+const [a, , c] = numbers;
+
+document.writeln(a); // 10
+document.writeln(c); // 30
+</script>

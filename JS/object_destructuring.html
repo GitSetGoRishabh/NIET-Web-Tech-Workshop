@@ -1,0 +1,26 @@
+<!-- Example 1: Simple Object Destructuring -->
+ <script>
+const student = {
+  name: "Rohit",
+  age: 21,
+  course: "CSE"
+};
+const { name, age } = student;
+document.writeln(name+"<br>"); // Rohit
+document.writeln(age);  // 21
+document.writeln("<hr>");
+</script>
+
+<!-- Example 2: Destructuring with Different Variable Names -->
+ <script>
+const employee = {
+  id: 101,
+  salary: 50000
+};
+
+const { id: empId, salary: empSalary } = employee;
+
+document.writeln(empId+"<br>");     // 101
+document.writeln(empSalary); // 50000
+document.writeln("<hr>");
+</script>
