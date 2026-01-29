@@ -1,0 +1,40 @@
+*Callback Function*
+
+<script>
+    // Callback function
+    function fun1(a,callback){
+        a=a+10;
+        document.writeln("value of a"+a);
+        callback();
+    }
+    function fun2(){
+        document.writeln("<br>this is call back");
+    }
+    fun1(10,fun2);
+
+
+
+
+
+
+    // Callback with Calculation
+function calculate(a, b, operation) {
+  return operation(a, b);
+}
+function add(x, y) {
+  return x + y;
+}
+function multiply(x, y) {
+  return x * y;
+}
+document.writeln("<br>Sum="+calculate(10, 5, add));
+document.writeln("<br>Multi="+calculate(10, 5, multiply));
+
+//callback Using Anonymous Function
+function processData(data, callback) {
+  callback(data);
+}
+
+processData("JavaScript", function(msg) {
+  document.writeln("<br>Learning " + msg);
+});</script>
