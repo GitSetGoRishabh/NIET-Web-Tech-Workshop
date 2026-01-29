@@ -1,0 +1,23 @@
+zzz<!-- ********REST OPERATOR*******  -->
+<!-- Example 1: Rest in Function Parameters -->
+ <script>
+function sum(...numbers) {
+  let total = 0;
+  for (let n of numbers) {
+    total += n;
+  }
+  return total;
+}
+document.writeln("Rest Operator<br>");
+document.writeln(sum(10, 20, 30)+"<br>"); // 60
+
+</script>
+<!-- Example 2: Rest in Array Destructuring -->
+ <script>
+const marks = [90, 80, 70, 60];
+
+const [first, ...others] = marks;
+
+document.writeln(first);  // 90
+document.writeln(others); // [80, 70, 60]
+</script>
